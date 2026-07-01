@@ -696,7 +696,7 @@ The Diffie-Hellman algorithm is used by SSH to establish a secure connection. Th
 
 #### Why
 
-Even though SSH is a pretty good security guard for your doors and windows, it is still a visible door that bad-actors can see and try to brute-force in. [Fail2ban](#fail2ban-application-intrusion-detection-and-prevention) will monitor for these brute-force attempts but there is no such thing as being too secure. Requiring two factors adds an extra layer of security.
+Even though SSH is a pretty good security guard for your doors and windows, it is still a visible door that bad-actors can see and try to brute-force in. [Fail2ban](#application-intrusion-detection-and-prevention-with-fail2ban) will monitor for these brute-force attempts but there is no such thing as being too secure. Requiring two factors adds an extra layer of security.
 
 Using Two-Factor Authentication (2FA) / Multi-Factor Authentication (MFA) requires anyone entering to have **two** keys to enter which makes it harder for bad actors. The two keys are:
 
